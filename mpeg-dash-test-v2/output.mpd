@@ -5,12 +5,12 @@
 	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
 	profiles="urn:mpeg:dash:profile:isoff-live:2011"
 	type="dynamic"
-	minimumUpdatePeriod="PT7S"
-	suggestedPresentationDelay="PT7S"
+	minimumUpdatePeriod="PT12S"
+	suggestedPresentationDelay="PT12S"
 	availabilityStartTime="2025-03-19T04:39:23.247Z"
-	publishTime="2025-03-19T04:40:15.914Z"
+	publishTime="2025-03-19T04:44:38.334Z"
 	maxSegmentDuration="PT4.0S"
-	minBufferTime="PT15.3S">
+	minBufferTime="PT24.6S">
 	<ProgramInformation>
 	</ProgramInformation>
 	<ServiceDescription id="0">
@@ -23,6 +23,22 @@
 						<S t="0" d="163840" />
 						<S d="128000" />
 						<S d="94208" />
+						<S d="125952" />
+						<S d="70656" />
+						<S d="81408" />
+						<S d="66560" />
+						<S d="75264" />
+						<S d="104960" />
+						<S d="91136" />
+						<S d="53760" />
+						<S d="159232" />
+						<S d="129536" />
+						<S d="79872" />
+						<S d="51712" />
+						<S d="77312" />
+						<S d="57344" />
+						<S d="87552" />
+						<S d="151552" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
@@ -33,7 +49,7 @@
 				<SegmentTemplate timescale="48000" initialization="init.mp4" media="segment_%d.m4s" startNumber="1">
 					<SegmentTimeline>
 						<S t="0" d="191488" />
-						<S d="192512" r="5" />
+						<S d="192512" r="36" />
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
